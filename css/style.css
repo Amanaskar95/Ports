@@ -719,6 +719,27 @@ h3.my-profession {
 .portfolio .overlay-content .btn1:hover {
     background-color: #0056b3;
 }
+/* .... */
+.portfolio .portfolio-item-inner .portfolio-description {
+    background-color: #f8f9fa;
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid var(--big-black-100);
+    margin-top: 15px;
+    border-radius: 0 0 10px 10px;
+    /* border: 1px solid #ccc;  */
+}
+
+.portfolio .portfolio-item-inner .portfolio-description h3 {
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 18px;
+}
+
+.portfolio .portfolio-item-inner .portfolio-description p {
+    color: #666;
+    font-size: 14px;
+}
 
 
 /* ...........Certificates............ */
