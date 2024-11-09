@@ -595,6 +595,24 @@ h3.my-profession {
     line-height: 25px;
 }
 
+.btn {
+    display: inline-block;
+    padding: 2px 9px;
+    margin-top: 10px;
+    background-color: #ff4400;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
 /*............Projects................*/
 
 /* .portfolio .container {
@@ -701,7 +719,8 @@ h3.my-profession {
 }
 
 .portfolio .overlay-content .github-icon img {
-    width: 40px; /* Adjust the size as needed */
+    width: 40px;
+    /* Adjust the size as needed */
 }
 
 .portfolio .overlay-content .btn1 {
@@ -719,6 +738,7 @@ h3.my-profession {
 .portfolio .overlay-content .btn1:hover {
     background-color: #0056b3;
 }
+
 /* .... */
 .portfolio .portfolio-item-inner .portfolio-description {
     background-color: #f8f9fa;
@@ -770,6 +790,7 @@ h3.my-profession {
     overflow: hidden;
     cursor: pointer;
 }
+
 .Certification .Certification-item-inner:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
